@@ -1,4 +1,4 @@
 
-public class ReceptionistTest {
+public class ReceptionistTest  {
 
 }
