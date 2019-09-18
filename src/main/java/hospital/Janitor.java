@@ -13,4 +13,9 @@ public class Janitor extends Employee implements Sweeping{
 		
 	}
 
+	public boolean isSweeping(boolean sweeping) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

@@ -11,7 +11,6 @@ public class Receptionist extends Employee implements OnThePhone{
 		if (onThePhone) {
 			return true;
 		}
-		// TODO Auto-generated method stub
 		return false; 
 		
 	}
