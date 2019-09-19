@@ -24,12 +24,17 @@ public class CareProviderTest {
 		CareProvider underTest = new CareProvider("Test CareProvider");
 		BloodDraw testBloodDraw = new BloodDraw();
 		Patient testPatient = new Patient("Patient");
-		
 		underTest.drawBloodFromPatient(testBloodDraw, testPatient);
 		
 	}
 	
-	
+	@Test
+	public void careProviderShouldGiveCare() {
+		CareProvider underTest = new CareProvider("Test CareProvider");
+		GiveCare testGiveCare = new GiveCare();
+		Patient testPatient = new Patient("Patient");
+		underTest.giveCare(testGiveCare, testPatient);
+	}
 	
 	
 }

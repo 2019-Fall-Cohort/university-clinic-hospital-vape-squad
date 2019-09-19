@@ -12,17 +12,10 @@ public class PatientTest {
 	public void setup() {
 		underTest = new Patient("Tim");
 	}
-	@Test
-	public void getBloodLevelTest() {
-		int expected = underTest.getBloodLevel();
-		assertEquals(expected, 20); 
-	}	
+
 	
-	@Test
-	public void drawingBloodDecreasesBloodLevel() {
-		underTest.canDrawBlood(2);
-		int expected = underTest.getBloodLevel();
-		assertEquals(expected, 18);
-	}
+
+	
+	
 
 }

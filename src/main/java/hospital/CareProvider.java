@@ -11,6 +11,11 @@ public class CareProvider extends Employee{
 		// TODO Auto-generated method stub
 		
 	}
+
+	public void giveCare(GiveCare testGiveCare, Patient testPatient) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 
