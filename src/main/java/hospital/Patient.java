@@ -27,6 +27,13 @@ public class Patient {
 		// TODO Auto-generated method stub
 		return bloodLevel;
 	}
+
+	public int getHealthLevel() {
+		// TODO Auto-generated method stub
+		return healthLevel;
+	}
+	
+	
 	
 
 	
