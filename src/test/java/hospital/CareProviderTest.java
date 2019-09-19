@@ -27,6 +27,9 @@ public class CareProviderTest {
 		
 		underTest.drawBloodFromPatient(testBloodDraw, testPatient);
 		
-		//assertThat(CareProvider, contains(drawBlood));
 	}
+	
+	
+	
+	
 }

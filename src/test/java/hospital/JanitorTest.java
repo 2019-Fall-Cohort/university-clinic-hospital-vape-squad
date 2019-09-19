@@ -21,4 +21,12 @@ public class JanitorTest {
 		assertThat(result, is(false));
 			
 		}
+	
+	@Test
+	public void janitorShouldSweep2() {
+		Janitor underTest = new Janitor("Test Janitor");
+		Boolean result = underTest.isSweeping(true);
+		assertThat(result, is(true));
+			
+		}
 }

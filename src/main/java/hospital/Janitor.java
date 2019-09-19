@@ -6,6 +6,12 @@ public class Janitor extends Employee implements Sweeping{
 		super(name);
 		// TODO Auto-generated constructor stub
 	}
+	public boolean isSweeping(boolean sweeping) {
+		if (sweeping) {
+			return true;
+		}
+		return false;
+	}
 
 	@Override
 	public void sweeping() {
@@ -13,9 +19,9 @@ public class Janitor extends Employee implements Sweeping{
 		
 	}
 
-	public boolean isSweeping(boolean sweeping) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+//	public boolean isSweeping(boolean sweeping) {
+//		// TODO Auto-generated method stub
+//		return false;
+//	}
 
 }
