@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
+import virtual_pets_amok.PetShelter;
+
 public class PatientTest {
 	Patient underTest;
 	
@@ -12,6 +14,9 @@ public class PatientTest {
 	public void setup() {
 		underTest = new Patient("Tim");
 	}
+	
+
+	
 
 	
 
