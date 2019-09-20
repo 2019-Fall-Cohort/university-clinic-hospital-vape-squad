@@ -1,6 +1,6 @@
 package hospital;
 
-public class Doctor {
+public class Doctor extends Employee{
 	
 	//static Doctor doctorName;
 	int doctorSalary = 90000;
@@ -9,16 +9,18 @@ public class Doctor {
 	
 	
 	
-	public Doctor(String doctor) {
-		Employee.getName(new Doctor(doctor));
-	}
-	
-	public void getDoctorName() {
+	public Doctor(String name) {
+		super(name);
 		
 	}
 
 	public int getDoctorSalary() {
 		return doctorSalary;
+	}
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

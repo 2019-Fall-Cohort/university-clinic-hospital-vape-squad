@@ -18,6 +18,20 @@ public class EmployeeTest {
 	
 	}
 	
+	@Test
+	public void shouldBeAbleToAddEmployees() {
+		Employee underTestReceptionist = new Receptionist("TestReceptionist");
+		Employee underTestJanitor = new Janitor("TestJanitor");
+		Employee underTestDoctor = new Doctor("TestDoctor");
+		Employee underTestNurse = new Nurse("TestNurse");
+
+		DragonCave underTestCave = new DragonCave();
+		underTestCave.addPetToShelter(underTestFireRobotic);
+		underTestCave.addPetToShelter(underTestOrganic);
+		Collection<Dragon> addedPets = underTestCave.retrievePetList();
+		assertThat(addedPets, containsInAnyOrder(underTestFireRobotic, underTestOrganic));
+	}
+	
 	@Test 
 	public void hasEmployeeBeenPaid() {
 	boolean result = underTest.hasBeenPaid();
