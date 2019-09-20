@@ -8,7 +8,7 @@ import org.junit.Test;
 import virtual_pets_amok.PetShelter;
 
 public class PatientTest {
-	Patient underTest;
+	Patient underTest = new Patient("Tim");
 	
 	@Before //Runs this method before each test.
 	public void setup() {

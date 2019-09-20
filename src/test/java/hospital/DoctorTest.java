@@ -6,12 +6,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 
+
 public class DoctorTest {
-	Doctor underTest;
-	
+	Doctor underTest = new Doctor("Test doctor");	
 	@Before //Runs this method before each test.
 	public void setup() {
-		underTest = new Doctor();
+		
 	}
 	
 	@Test
