@@ -7,10 +7,17 @@ public class Receptionist extends Employee implements OnThePhone{
 		// TODO Auto-generated constructor stub
 	}
 
-	
 	public boolean receptionistOnThePhone(boolean onThePhone) {
-		// TODO Auto-generated method stub
+		if (onThePhone) {
+			return true;
+		}
 		return false; 
+		
+	}
+
+	@Override
+	public void onThePhone() {
+		// TODO Auto-generated method stub
 		
 	}
 	

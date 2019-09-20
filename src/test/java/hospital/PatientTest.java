@@ -5,24 +5,22 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
+import virtual_pets_amok.PetShelter;
+
 public class PatientTest {
-	Patient underTest;
+	Patient underTest = new Patient("Tim");
 	
 	@Before //Runs this method before each test.
 	public void setup() {
 		underTest = new Patient("Tim");
 	}
-	@Test
-	public void getBloodLevelTest() {
-		int expected = underTest.getBloodLevel();
-		assertEquals(expected, 20); 
-	}	
 	
-	@Test
-	public void drawingBloodDecreasesBloodLevel() {
-		underTest.canDrawBlood(2);
-		int expected = underTest.getBloodLevel();
-		assertEquals(expected, 18);
-	}
+
+	
+
+	
+
+	
+	
 
 }

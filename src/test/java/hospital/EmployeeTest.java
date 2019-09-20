@@ -8,6 +8,8 @@ import hospital.Employee;
 
 public class EmployeeTest {
 	
+	Employee underTest = new Employee("Test Person");
+
 	@Test
 	public void staffShouldHaveName() throws Exception {
 		Employee underTest = new Employee("Test Person");
@@ -15,4 +17,11 @@ public class EmployeeTest {
 		assertThat(result, is("Test Person"));
 	
 	}
+	
+	@Test 
+	public void hasEmployeeBeenPaid() {
+	boolean result = underTest.hasBeenPaid();
+	assertThat(result, is(true));
+}
+	
 }

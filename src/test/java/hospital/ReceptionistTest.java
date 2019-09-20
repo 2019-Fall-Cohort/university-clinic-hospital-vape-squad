@@ -14,13 +14,20 @@ public class ReceptionistTest  {
 		assertThat(result, is("Test Receptionist"));
 	}
 	
-		@Test
-		public void receptionsitShouldAnswerPhone() {
-			Receptionist underTest = new Receptionist("Test Receptionist");
-			Boolean result = underTest.receptionistOnThePhone();
+	@Test
+	public void receptionsitShouldAnswerPhone() {
+		Receptionist underTest = new Receptionist("Test Receptionist");
+		Boolean result = underTest.receptionistOnThePhone(false);
+		assertThat(result, is(false));
 			
+		}
+	
+	@Test
+	public void receptionsitShouldAnswerPhone2() {
+		Receptionist underTest = new Receptionist("Test Receptionist");
+		Boolean result = underTest.receptionistOnThePhone(true);
+		assertThat(result, is(true));
 			
-			//assertThat(CareProvider, contains(drawBlood));
 		}
 
 }

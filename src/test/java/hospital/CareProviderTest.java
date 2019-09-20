@@ -24,20 +24,19 @@ public class CareProviderTest {
 		CareProvider underTest = new CareProvider("Test CareProvider");
 		BloodDraw testBloodDraw = new BloodDraw();
 		Patient testPatient = new Patient("Patient");
-		
 		underTest.drawBloodFromPatient(testBloodDraw, testPatient);
 		
-		//assertThat(CareProvider, contains(drawBlood));
 	}
 	
-	@Test
-	public static void main(String args[]) {
-		int a[]=new int[5];
-		a[employee Name]=Todd;
-		a[employee Name]=Jack;
-		a[employee Name]=John;
-		a[employee Name]=Sam;
 		
+
+	public void careProviderShouldGiveCare() {
+		CareProvider underTest = new CareProvider("Test CareProvider");
+		GiveCare testGiveCare = new GiveCare();
+		Patient testPatient = new Patient("Patient");
+		underTest.giveCare(testGiveCare, testPatient);
 	}
 	
+	
+
 }
