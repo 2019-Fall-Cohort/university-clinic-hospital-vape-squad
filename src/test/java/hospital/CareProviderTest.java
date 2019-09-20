@@ -29,4 +29,15 @@ public class CareProviderTest {
 		
 		//assertThat(CareProvider, contains(drawBlood));
 	}
+	
+	@Test
+	public static void main(String args[]) {
+		int a[]=new int[5];
+		a[employee Name]=Todd;
+		a[employee Name]=Jack;
+		a[employee Name]=John;
+		a[employee Name]=Sam;
+		
+	}
+	
 }
