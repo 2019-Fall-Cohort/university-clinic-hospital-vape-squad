@@ -18,6 +18,13 @@ public class GiveCareTest {
 		int expectedHealthLevel = undertest.getHealthLevel();
 		assertEquals(expectedHealthLevel, 10); 
 	}	
+	
+	@Test
+	public void givingCareIncreasesHealthLevel() {
+		undertest.canGiveCare(2);
+		int expected = undertest.getHealthLevel();
+		assertEquals(expected, 12);
+	}
 
 }
 
