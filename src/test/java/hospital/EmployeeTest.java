@@ -58,9 +58,9 @@ public class EmployeeTest {
 	boolean result = underTest.hasBeenPaid(true);
 	assertThat(result, is(true));
 }
-	@Before 
-	public void setUp() {
-		employeeList = new HashMap<>(); 
+	
+	public void addEmployeeToList(Employee employeeToAdd) { 
+		employeeList.put(employeeToAdd.get)
 	}
 	
 }
