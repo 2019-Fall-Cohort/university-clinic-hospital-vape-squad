@@ -4,7 +4,9 @@ import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.hamcrest.Matchers.is;
 
 import java.util.Collection;
+import java.util.HashMap;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import hospital.Employee;
@@ -56,5 +58,9 @@ public class EmployeeTest {
 	boolean result = underTest.hasBeenPaid(true);
 	assertThat(result, is(true));
 }
+	@Before 
+	public void setUp() {
+		this.map = new HashMap(); 
+	}
 	
 }
