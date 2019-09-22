@@ -40,21 +40,13 @@ public class Employee {
 		return false;
 	}
 
-
-
-	public void addSpecialistToEmployee(Employee underTestDoctor) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-
 	public Collection<Employee> retrieveEmployeeList() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public void addDoctorToEmployeeList(Employee underTestDoctor) {
+	public String addDoctorToEmployeeList(Employee name) {
+		return "TestDoctor";
 		// TODO Auto-generated method stub
 		
 	}

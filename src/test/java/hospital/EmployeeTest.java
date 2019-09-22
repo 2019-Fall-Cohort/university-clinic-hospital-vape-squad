@@ -34,16 +34,15 @@ public class EmployeeTest {
 		underTestNurse.addNurseToEmployeeList(underTestNurse);
 		underTestJanitor.addJanitortoEmployeeList(underTestJanitor);
 		underTestReceptionist.addReceptionistToEmployeeList(underTestReceptionist);
-
-		Collection<Employee> addedEmployees = underTestEmployee.retrieveEmployeeList();
-		assertThat(addedEmployees, containsInAnyOrder(underTestDoctor, underTestNurse,underTestJanitor, underTestReceptionist));
+		Collection<Employee> employeeList = underTestEmployee.retrieveEmployeeList();
+		assertThat(employeeList, containsInAnyOrder("TestDoctor", "TestNurse","TestJanitor", "TestReceptionist"));
 	}
 	
 //	@Test
 //	public void shouldBeAbleToAddEmployees() {
 //		Employee underTestReceptionist = new Receptionist("TestReceptionist");
 //		Employee underTestJanitor = new Janitor("TestJanitor");
-//		Employee underTestDoctor = new Doctor("TestDoctor");
+//		Employee underTestDoctor = new Doctor("TestDoctor"); 
 //		Employee underTestNurse = new Nurse("TestNurse");
 //
 //		Employee underTestCave = new Employee();
