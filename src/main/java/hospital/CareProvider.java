@@ -1,7 +1,6 @@
 package hospital;
 
 public class CareProvider extends Employee{
-
 	public CareProvider(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub

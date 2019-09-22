@@ -1,7 +1,7 @@
 package hospital;
 
 public class Nurse extends Employee{
-	
+int emoloyeeNumber = (getEmployeeNumber());
 	public Nurse(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
