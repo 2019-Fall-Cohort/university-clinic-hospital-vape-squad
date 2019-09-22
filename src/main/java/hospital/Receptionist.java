@@ -7,6 +7,11 @@ int employeeNumber = (getEmployeeNumber());
 		// TODO Auto-generated constructor stub
 	}
 
+	private int getEmployeeNumber() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	public boolean receptionistOnThePhone(boolean onThePhone) {
 		if (onThePhone) {
 			return true;

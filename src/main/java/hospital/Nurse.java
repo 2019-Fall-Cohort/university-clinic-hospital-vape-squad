@@ -7,6 +7,11 @@ int emoloyeeNumber = (getEmployeeNumber());
 		// TODO Auto-generated constructor stub
 	}
 
+	private int getEmployeeNumber() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	int nurseSalary = 50000;
 
 	public int getNurseSalary() {

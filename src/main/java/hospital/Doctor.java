@@ -14,6 +14,11 @@ int employeeNumber = (getEmployeeNumber());
 		
 	}
 
+	private int getEmployeeNumber() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	public int getDoctorSalary() {
 		return doctorSalary;
 	}

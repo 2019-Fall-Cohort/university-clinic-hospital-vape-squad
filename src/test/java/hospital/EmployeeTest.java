@@ -29,13 +29,13 @@ public class EmployeeTest {
 		Employee underTestNurse = new Nurse("TestNurse");
 		Employee underTestJanitor = new Janitor("TestJanitor");
 		Employee underTestReceptionist = new Receptionist("TestReceptionist");
-		Employee underTestCave = new Employee();
-		underTestCave.addSpecialistToEmployee(underTestDoctor);
-		underTestCave.addSpecialistToEmployee(underTestNurse);
-		underTestCave.addSpecialistToEmployee(underTestJanitor);
-		underTestCave.addSpecialistToEmployee(underTestReceptionist);
+		Employee underTestEmployee = new Employee();
+		underTestDoctor.addDoctorToEmployeeList(underTestDoctor);
+		underTestNurse.addNurseToEmployeeList(underTestNurse);
+		underTestJanitor.addJanitortoEmployeeList(underTestJanitor);
+		underTestReceptionist.addReceptionistToEmployeeList(underTestReceptionist);
 
-		Collection<Employee> addedEmployees = underTestCave.retrieveEmployeeList();
+		Collection<Employee> addedEmployees = underTestEmployee.retrieveEmployeeList();
 		assertThat(addedEmployees, containsInAnyOrder(underTestDoctor, underTestNurse,underTestJanitor, underTestReceptionist));
 	}
 	
@@ -59,8 +59,8 @@ public class EmployeeTest {
 	assertThat(result, is(true));
 }
 	
-	public void addEmployeeToList(Employee employeeToAdd) { 
-		employeeList.put(employeeToAdd.get)
-	}
+//	public void addEmployeeToList(Employee employeeToAdd) { 
+//		employeeList.put(employeeToAdd.get)
+//	}
 	
 }

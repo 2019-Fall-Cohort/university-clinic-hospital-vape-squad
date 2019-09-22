@@ -53,6 +53,26 @@ public class Employee {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	public void addDoctorToEmployeeList(Employee underTestDoctor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void addNurseToEmployeeList(Employee underTestNurse) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void addJanitortoEmployeeList(Employee underTestJanitor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void addReceptionistToEmployeeList(Employee underTestReceptionist) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
