@@ -1,7 +1,7 @@
 package hospital;
 
 public class Doctor extends Employee{
-	
+int employeeNumber = (getEmployeeNumber()); 
 	//static Doctor doctorName;
 	int doctorSalary = 90000;
 	Doctor doctorSpecialty;
