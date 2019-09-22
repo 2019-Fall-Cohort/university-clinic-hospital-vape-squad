@@ -60,7 +60,7 @@ public class EmployeeTest {
 }
 	@Before 
 	public void setUp() {
-		this.map = new HashMap(); 
+		employeeList = new HashMap<>(); 
 	}
 	
 }
