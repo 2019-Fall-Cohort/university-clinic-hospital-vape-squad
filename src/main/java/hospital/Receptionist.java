@@ -1,7 +1,7 @@
 package hospital;
 
 public class Receptionist extends Employee implements OnThePhone{
-
+int employeeNumber = (getEmployeeNumber()); 
 	public Receptionist(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
