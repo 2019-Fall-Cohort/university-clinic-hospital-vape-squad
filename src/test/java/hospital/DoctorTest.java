@@ -16,12 +16,12 @@ public class DoctorTest {
 		
 	}
 	
-	@Test
-	public void doctorShouldBeEmployee() {
-		Doctor underTest = new Doctor("Test Doctor");
-		String result = underTest.getName();
-		assertThat(result, is("Test Doctor"));
-	}
+//	@Test
+//	public void doctorShouldBeEmployee() {
+//		Doctor underTest = new Doctor("Test Doctor");
+//		String result = underTest.getName();
+//		assertThat(result, is("Test Doctor"));
+//	}
 	
 	@Test
 	public void getDoctorSalaryTest() {
